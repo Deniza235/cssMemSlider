@@ -15,7 +15,6 @@
   </header>
   <section class="slider">
     <div class="slider__wrapper">
-      <div class="slider__input">
         <input type="radio" name="slide" id="slide_1" checked>
         <input type="radio" name="slide" id="slide_2">
         <input type="radio" name="slide" id="slide_3">
@@ -24,8 +23,8 @@
         <input type="radio" name="slide" id="slide_6">
         <input type="radio" name="slide" id="slide_7">
         <input type="radio" name="slide" id="slide_8">  
-
-        <div class="slider__image active"><img src="./assets/images/1.jpg" alt="meme" class="image"></div>
+      <div class="slider__top">
+        <div class="slider__image"><img src="./assets/images/1.jpg" alt="meme" class="image"></div>
         <div class="slider__image"><img src="./assets/images/2.png" alt="meme" class="image"></div>
         <div class="slider__image"><img src="./assets/images/3.jpg" alt="meme" class="image"></div>
         <div class="slider__image"><img src="./assets/images/4.jpg" alt="meme" class="image"></div>
@@ -34,16 +33,29 @@
         <div class="slider__image"><img src="./assets/images/7.jpg" alt="meme" class="image"></div>
         <div class="slider__image"><img src="./assets/images/8.jpg" alt="meme" class="image"></div>
       </div>
-      <div class="slider__label-list">
-        <label for="slide_1" class="slider__label-item"><span class="circle"></span></label>
-        <label for="slide_2" class="slider__label-item"><span class="circle"></span></label>
-        <label for="slide_3" class="slider__label-item"><span class="circle"></span></label>
-        <label for="slide_4" class="slider__label-item"><span class="circle"></span></label>
-        <label for="slide_5" class="slider__label-item"><span class="circle"></span></label>
-        <label for="slide_6" class="slider__label-item"><span class="circle"></span></label>
-        <label for="slide_7" class="slider__label-item"><span class="circle"></span></label>
-        <label for="slide_8" class="slider__label-item"><span class="circle"></span></label>
+      <div class="slider__bottom">
+        <div class="slider__label-list">
+          <label for="slide_1" class="slider__label-item"><span class="circle"></span></label>
+          <label for="slide_2" class="slider__label-item"><span class="circle"></span></label>
+          <label for="slide_3" class="slider__label-item"><span class="circle"></span></label>
+          <label for="slide_4" class="slider__label-item"><span class="circle"></span></label>
+          <label for="slide_5" class="slider__label-item"><span class="circle"></span></label>
+          <label for="slide_6" class="slider__label-item"><span class="circle"></span></label>
+          <label for="slide_7" class="slider__label-item"><span class="circle"></span></label>
+          <label for="slide_8" class="slider__label-item"><span class="circle"></span></label>
+        </div>
+        <div class="slider__descr-list">
+          <p class="slider__descr-item">один</p>
+          <p class="slider__descr-item">два</p>
+          <p class="slider__descr-item">три</p>
+          <p class="slider__descr-item">четыре</p>
+          <p class="slider__descr-item">пять</p>
+          <p class="slider__descr-item">шесть</p>
+          <p class="slider__descr-item">семь</p>
+          <p class="slider__descr-item">восемь</p>
+        </div>
       </div>
+      
     </div>
   </section>
 </body>
