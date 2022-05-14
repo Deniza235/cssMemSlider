@@ -89,6 +89,11 @@ input[type=radio] {
   transition: all .5s ease-in-out;
 }
 
+.slider__label-item:hover > .circle {
+  background-color: grey;
+  box-shadow: 0 0 0.6rem 0.3rem rgba(221, 221, 221, 1);
+}
+
 .slider__label-item:active > .circle {
   background-color: azure;
 }
@@ -170,7 +175,16 @@ input[type=radio] {
   box-shadow: 0 0 0.6rem 0.3rem rgba(128, 128, 128, 1);
 }
 
-.slider__label-item:active > .circle:hover {
+
+#slide_1:checked ~ .slider__bottom > .slider__label-list > .slider__label-item[for = 'slide_1']:hover > .circle,
+#slide_2:checked ~ .slider__bottom > .slider__label-list > .slider__label-item[for = 'slide_2']:hover > .circle,
+#slide_3:checked ~ .slider__bottom > .slider__label-list > .slider__label-item[for = 'slide_3']:hover > .circle,
+#slide_4:checked ~ .slider__bottom > .slider__label-list > .slider__label-item[for = 'slide_4']:hover > .circle,
+#slide_5:checked ~ .slider__bottom > .slider__label-list > .slider__label-item[for = 'slide_5']:hover > .circle,
+#slide_6:checked ~ .slider__bottom > .slider__label-list > .slider__label-item[for = 'slide_6']:hover > .circle,
+#slide_7:checked ~ .slider__bottom > .slider__label-list > .slider__label-item[for = 'slide_7']:hover > .circle,
+#slide_8:checked ~ .slider__bottom > .slider__label-list > .slider__label-item[for = 'slide_8']:hover > .circle {
   background-color: grey;
+  outline: none;
   box-shadow: 0 0 0.6rem 0.3rem rgba(221, 221, 221, 1);
 }
